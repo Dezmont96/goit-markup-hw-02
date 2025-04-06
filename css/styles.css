@@ -1,7 +1,7 @@
 /* base styles */
 
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -60,28 +60,35 @@ header {
   height: 600px;
   background: #2e2f42;
 }
-.effective-solutions h1 {
+.effective-solutions-h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
-.order-service-button span {
+
+.order-service-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-}
-.order-service-button {
   border-radius: 4px;
   cursor: pointer;
   width: 169px;
   height: 56px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  color: #ffffff;
 }
+
+.order-service-button:focus,
+.order-service-button:hover {
+  background-color: #404bbf;
+}
+
 .advantages h3 {
   font-weight: 500;
   font-size: 20px;
@@ -89,26 +96,23 @@ header {
   color: #2e2f42;
 }
 /* #region footer */
-footer {
-  width: 1440px;
-  height: 312px;
+.footer {
   background: #2e2f42;
 }
-footer p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
+.footer-p {
   color: #f4f4fd;
 }
-footer a {
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: #4d5ae5;
+}
+.span-studio {
   color: #f4f4fd;
 }
 /* #endregion footer */
