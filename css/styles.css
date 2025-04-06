@@ -37,6 +37,11 @@ header {
   color: #2e2f42;
   text-decoration: none;
 }
+
+.address {
+  font-style: normal;
+}
+
 .address-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -45,7 +50,6 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  font-style: normal;
 }
 .address-link:focus,
 .address-link:hover {
@@ -83,7 +87,7 @@ header {
   background-color: #404bbf;
 }
 
-.advantages-h3 {
+.advantages-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
