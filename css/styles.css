@@ -56,8 +56,6 @@ header {
 
 /* #endregion main */
 .effective-solutions {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 .effective-solutions-h1 {
@@ -73,13 +71,9 @@ header {
 .order-service-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  border-radius: 4px;
   cursor: pointer;
-  width: 169px;
-  height: 56px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #ffffff;
 }
@@ -89,11 +83,15 @@ header {
   background-color: #404bbf;
 }
 
-.advantages h3 {
+.advantages-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.advantages-p {
 }
 /* #region footer */
 .footer {
